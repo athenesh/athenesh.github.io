@@ -61,10 +61,7 @@ class PostLoader {
       const parsedContent = this.parseMarkdown(markdownContent);
 
       this.renderPost(parsedContent);
-      this.loadGiscus(script.setAttribute('data-repo', '{yout_github_name}/{yout_github_name}.github.io');
-      script.setAttribute('data-repo-id', 'YOUR_REPO_ID'); // 3단계에서 복사
-      script.setAttribute('data-category', 'General');
-      script.setAttribute('data-category-id', 'YOUR_CATEGORY_ID'); // 3단계에서 복사);
+      this.loadGiscus();
 
       console.log(`Post loaded: ${fileName}`);
     } catch (error) {
