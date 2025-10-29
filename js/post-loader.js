@@ -61,7 +61,10 @@ class PostLoader {
       const parsedContent = this.parseMarkdown(markdownContent);
 
       this.renderPost(parsedContent);
-      this.loadGiscus();
+      this.loadGiscus(script.setAttribute('data-repo', '{yout_github_name}/{yout_github_name}.github.io');
+      script.setAttribute('data-repo-id', 'YOUR_REPO_ID'); // 3단계에서 복사
+      script.setAttribute('data-category', 'General');
+      script.setAttribute('data-category-id', 'YOUR_CATEGORY_ID'); // 3단계에서 복사);
 
       console.log(`Post loaded: ${fileName}`);
     } catch (error) {
@@ -174,18 +177,17 @@ class PostLoader {
 
     const script = document.createElement("script");
     script.src = "https://giscus.app/client.js";
-    script.setAttribute("data-repo", "YOUR_USERNAME/YOUR_USERNAME.github.io"); // 실제 저장소로 변경 필요
-    script.setAttribute("data-repo-id", "YOUR_REPO_ID"); // 실제 repo-id로 변경 필요
+    script.setAttribute("data-repo", "athenesh/athenesh.github.io");
+    script.setAttribute("data-repo-id", "R_kgDOQLHI4A");
     script.setAttribute("data-category", "General");
-    script.setAttribute("data-category-id", "YOUR_CATEGORY_ID"); // 실제 category-id로 변경 필요
+    script.setAttribute("data-category-id", "DIC_kwDOQLHI4M4CxMbG");
     script.setAttribute("data-mapping", "pathname");
     script.setAttribute("data-strict", "0");
     script.setAttribute("data-reactions-enabled", "1");
-    script.setAttribute("data-emit-metadata", "1");
+    script.setAttribute("data-emit-metadata", "0");
     script.setAttribute("data-input-position", "bottom");
     script.setAttribute("data-theme", "preferred_color_scheme");
     script.setAttribute("data-lang", "ko");
-    script.setAttribute("data-loading", "lazy");
     script.setAttribute("crossorigin", "anonymous");
     script.async = true;
 
