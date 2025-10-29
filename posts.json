@@ -1,0 +1,29 @@
+[
+  {
+    "file": "javascript-tips.md",
+    "title": "javascript-tips",
+    "date": "2025-10-29",
+    "tags": [],
+    "category": "",
+    "description": "",
+    "excerpt": "---\r title: 'JavaScript 개발 팁과 트릭'\r date: 2025-01-25\r tags: \r category: 'Development'\r description: 'JavaScript 개발에서 유용한 팁과 트릭들을 모아봤습니다.'\r ---\r \r \r \r JavaScript 개발을 하면서 유용하게 사용할 수 있는 팁과 트릭들을 정리해보겠습니다."
+  },
+  {
+    "file": "example.md",
+    "title": "example",
+    "date": "2025-10-29",
+    "tags": [],
+    "category": "",
+    "description": "",
+    "excerpt": "---\r title: 'GitHub Pages 정적 블로그 구축하기'\r date: 2025-01-26\r tags: \r category: 'Development'\r description: 'GitHub Pages를 활용하여 마크다운 기반의 정적 블로그를 구축하는 방법을 알아봅니다.'\r ---\r \r \r \r GitHub Pages를 활용하여 마크다운 기반의 정적..."
+  },
+  {
+    "file": "css-grid-guide.md",
+    "title": "css-grid-guide",
+    "date": "2025-10-29",
+    "tags": [],
+    "category": "",
+    "description": "",
+    "excerpt": "---\r title: 'CSS Grid 완벽 가이드'\r date: 2025-01-24\r tags: \r category: 'Design'\r description: 'CSS Grid를 활용한 레이아웃 디자인 방법을 자세히 알아봅니다.'\r ---\r \r \r \r CSS Grid는 2차원 레이아웃 시스템으로, 복잡한 웹 페이지 레이아웃을 쉽고 직관적으로 만들 수 있게..."
+  }
+]
